@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bd416204a8b7d16dd852a9f55756531e",
+    "hash": "a29f064cbc1ad534620aa10a513119d6",
     "packages": [
         {
             "name": "symfony/class-loader",
@@ -102,6 +102,64 @@
                 }
             ],
             "description": "Symfony HttpFoundation Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-09-29 19:41:41"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "v2.3.6",
+            "target-dir": "Symfony/Component/Routing",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Routing.git",
+                "reference": "7d41463094752e87a0fae60316d236abecb8a034"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/7d41463094752e87a0fae60316d236abecb8a034",
+                "reference": "7d41463094752e87a0fae60316d236abecb8a034",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.2",
+                "psr/log": "~1.0",
+                "symfony/config": "~2.2",
+                "symfony/yaml": "~2.0"
+            },
+            "suggest": {
+                "doctrine/common": "",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Routing\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Routing Component",
             "homepage": "http://symfony.com",
             "time": "2013-09-29 19:41:41"
         }
